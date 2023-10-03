@@ -7,7 +7,7 @@ const publicUrl = getPublicUrl();
 
 const nextConfig = {
   // Set assetPrefix to our public URL
-  assetPrefix: publicUrl,
+  assetPrefix: 'https://cdn.mydomain.com',
 
   // Allow specifying a distinct distDir when concurrently running app in a container
   distDir: process.env.NEXTJS_DIST_DIR || '.next',
